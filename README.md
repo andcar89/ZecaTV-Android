@@ -7,6 +7,15 @@ Material 3 dark theme.
 
 > **Note:** This app was built with AI assistance (Claude, by Anthropic) — every feature, fix, and line in this repo was written by Claude, prompted and directed by a human. It's a personal project, provided as-is with no warranty; use it at your own discretion.
 
+## Screenshots
+
+<p>
+  <img src="screenshots/01-welcome.png" width="23%" alt="Welcome screen">
+  <img src="screenshots/02-movies.png" width="23%" alt="Movies tab">
+  <img src="screenshots/03-settings-classic.png" width="23%" alt="Settings with the Classic theme">
+  <img src="screenshots/04-settings-midnight.png" width="23%" alt="Settings with the Midnight theme">
+</p>
+
 ## Features
 
 - **Playlists:** M3U URL, M3U file and Xtream Codes; several saved playlists, switch / edit / delete
