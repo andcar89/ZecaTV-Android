@@ -1,0 +1,273 @@
+<resources>
+    <string name="app_name">ZecaTV</string>
+
+    <!-- Comum -->
+    <string name="action_remove">Remover</string>
+    <string name="action_switch">Mudar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_play_with">Reproduzir com</string>
+    <string name="error_channel_not_found">Canal não encontrado</string>
+    <string name="error_no_external_player">Nenhuma aplicação de reprodução externa encontrada</string>
+    <string name="error_unknown">Erro desconhecido</string>
+    <string name="label_no_programme_info">Sem informação do programa</string>
+    <string name="category_favorites">Favoritos</string>
+    <string name="category_all_channels">Todos os canais</string>
+    <string name="category_uncategorized">Sem categoria</string>
+    <string name="toast_added_to_favorites">Adicionado aos favoritos</string>
+    <string name="toast_removed_from_favorites">Removido dos favoritos</string>
+    <string name="toast_playback_failed">Falha na reprodução: %1$s</string>
+    <string name="toast_failed_load_playlist">Falha ao carregar a lista: %1$s</string>
+    <string name="toast_no_favorites_yet">Ainda sem favoritos — mantenha premido um canal para adicionar</string>
+
+    <!-- Barra lateral -->
+    <string name="nav_search">Pesquisar</string>
+    <string name="nav_live_tv">TV em Direto</string>
+    <string name="nav_movies">Filmes</string>
+    <string name="nav_series">Séries</string>
+    <string name="nav_favorites">Favoritos</string>
+    <string name="nav_tv_guide">Guia de TV</string>
+    <string name="nav_settings">Definições</string>
+    <string name="category_all_movies">Todos os filmes</string>
+    <string name="category_all_series">Todas as séries</string>
+
+    <!-- Ecrã principal -->
+    <string name="grid_view_label">⊞ Vista em grelha</string>
+    <string name="list_view_label">☰ Vista em lista</string>
+    <string name="popup_action_add_favorite">★ Adicionar aos Favoritos</string>
+    <string name="popup_action_remove_favorite">☆ Remover dos Favoritos</string>
+    <string name="popup_action_assign_epg">Atribuir EPG do canal</string>
+
+    <!-- Ecrã de boas-vindas -->
+    <string name="welcome_add_playlist">Adicionar Lista</string>
+
+    <!-- Ecrã de adicionar fonte -->
+    <string name="add_source_title">Adicionar lista</string>
+    <string name="edit_playlist_title">Editar lista</string>
+    <string name="hint_playlist_name">Nome da lista (opcional)</string>
+    <string name="radio_m3u_url">URL M3U</string>
+    <string name="radio_m3u_file">Ficheiro M3U</string>
+    <string name="radio_xtream">Portal Xtream</string>
+    <string name="hint_playlist_url">URL da lista (http://.../playlist.m3u)</string>
+    <string name="hint_epg_url_optional">URL(s) XMLTV do EPG (opcional, separados por vírgula se houver mais do que um)</string>
+    <string name="button_pick_file">Escolher ficheiro M3U</string>
+    <string name="label_no_file_selected">Nenhum ficheiro selecionado</string>
+    <string name="hint_xtream_server">Servidor (http://host:porta)</string>
+    <string name="hint_username">Utilizador</string>
+    <string name="hint_password">Palavra-passe</string>
+    <string name="button_save_and_load">Guardar e carregar</string>
+    <string name="label_loading">A carregar…</string>
+    <string name="toast_enter_playlist_url">Introduza o URL da lista</string>
+    <string name="toast_pick_file_first">Escolha primeiro um ficheiro M3U</string>
+    <string name="toast_fill_xtream_fields">Preencha o servidor, utilizador e palavra-passe</string>
+    <string name="toast_choose_source_type">Escolha um tipo de fonte</string>
+    <string name="toast_loaded_no_channels">Carregado mas sem canais encontrados — verifique a fonte</string>
+    <string name="toast_loaded_n_channels">%1$d canais carregados</string>
+    <string name="toast_failed_prefix">Falha: %1$s</string>
+
+    <!-- Ecrã de definições -->
+    <string name="settings_playlist_header">Listas</string>
+    <string name="label_no_playlists">Ainda sem listas.</string>
+    <string name="playlist_source_m3u_url">URL da lista M3U: %1$s</string>
+    <string name="playlist_source_m3u_file">Ficheiro M3U: %1$s</string>
+    <string name="playlist_source_xtream">Portal Xtream: %1$s (utilizador: %2$s)</string>
+    <string name="button_add_playlist">Adicionar lista</string>
+    <string name="settings_epg_header">EPG</string>
+    <string name="settings_epg_description">O EPG do fornecedor (se existir) é sempre usado por predefinição. Adicione aqui URLs XMLTV extra e depois use \"Atribuir EPG do canal\" para associar canais específicos a uma entrada de guia específica de qualquer uma destas fontes.</string>
+    <string name="button_refresh_epg">Atualizar EPG agora</string>
+    <string name="label_add_new_epg_source">Adicionar nova fonte de EPG</string>
+    <string name="hint_epg_source_name">Nome (ex.: \"Guia de desporto\")</string>
+    <string name="hint_xmltv_url">URL XMLTV</string>
+    <string name="button_add_source">Adicionar fonte</string>
+    <string name="button_assign_channel_epg">Atribuir EPG do canal</string>
+    <string name="label_no_epg_sources">Ainda sem fontes de EPG.</string>
+    <string name="label_provider_epg_included">EPG do fornecedor (incluído)</string>
+    <string name="label_provider_epg_included_numbered">EPG do fornecedor %1$d (incluído)</string>
+    <string name="epg_status_loaded">✓ Carregado — %1$d canais, %2$d programas</string>
+    <string name="epg_status_not_loaded">Ainda não carregado</string>
+    <string name="epg_status_error">⚠ Falha: %1$s</string>
+    <string name="action_activate">Ativar</string>
+    <string name="action_deactivate">Desativar</string>
+    <string name="label_active_badge">ATIVO</string>
+    <string name="label_active_source_note">A correspondência automática usa apenas esta fonte</string>
+    <string name="label_loaded_automatically">Carregado automaticamente com a sua lista</string>
+    <string name="toast_enter_name_and_url">Introduza um nome e um URL</string>
+    <string name="status_refreshing_epg">A atualizar EPG…</string>
+    <string name="status_epg_refreshed">EPG atualizado</string>
+    <string name="status_switching_playlist">A mudar de lista…</string>
+    <string name="status_loading_named">A carregar \"%1$s\"…</string>
+    <string name="status_loaded_named">\"%1$s\" carregado</string>
+    <string name="settings_display_header">Visualização</string>
+    <string name="label_default_channel_view">Vista predefinida dos canais</string>
+    <string name="radio_list">Lista</string>
+    <string name="radio_grid">Grelha</string>
+    <string name="label_long_press_does">Manter premido um canal</string>
+    <string name="radio_long_press_menu">Mostrar menu (Favorito + Atribuir EPG)</string>
+    <string name="radio_long_press_favorite">Adicionar diretamente aos Favoritos, sem menu</string>
+    <string name="settings_language_header">Idioma</string>
+    <string name="radio_language_english">English</string>
+    <string name="radio_language_portuguese">Português</string>
+
+    <!-- Ecrã de atribuição de EPG -->
+    <string name="mapping_title">Atribuir EPG do canal</string>
+    <string name="mapping_description">Escolha um canal da lista e depois escolha qual a fonte de EPG e qual a entrada do guia nessa fonte que deve fornecer a informação do programa.</string>
+    <string name="label_playlist_channel">Canal da lista</string>
+    <string name="label_categories">Categorias</string>
+    <string name="label_epg_source">Fonte de EPG</string>
+    <string name="label_guide_channel">Canal do guia dentro dessa fonte</string>
+    <string name="button_save_mapping">Guardar atribuição</string>
+    <string name="label_current_mappings">Atribuições atuais</string>
+    <string name="toast_pick_channel_source_guide">Escolha primeiro um canal, uma fonte e uma entrada do guia</string>
+    <string name="status_saved_mapping">Guardado: %1$s → %2$s</string>
+    <string name="label_no_mappings_yet">Ainda sem atribuições.</string>
+    <string name="label_no_guide_channels_loaded">Nenhum canal do guia carregado</string>
+    <string name="mapping_row_format">%1$s  →  %2$s: %3$s</string>
+    <string name="error_could_not_open_file">Não foi possível abrir o ficheiro</string>
+    <string name="action_show_password">Mostrar</string>
+    <string name="action_hide_password">Ocultar</string>
+
+    <!-- Reprodutor: barra lateral de faixas (áudio/legendas), controlos de VOD -->
+    <string name="label_audio_tracks">Áudio</string>
+    <string name="label_subtitle_tracks">Legendas</string>
+    <string name="label_subtitles_off">Desativadas</string>
+    <string name="label_no_tracks_available">Não disponível para este stream</string>
+    <string name="label_track_unnamed">Faixa %1$d</string>
+
+    <!-- ===== Phone app additions ===== -->
+    <string name="nav_more">Mais</string>
+    <string name="channels_count">%1$d canais</string>
+    <string name="items_count">%1$d</string>
+    <string name="label_live_badge">AO VIVO</string>
+    <string name="label_next_prefix">A seguir: %1$s</string>
+    <string name="label_categories_title">Categorias</string>
+    <string name="label_search_hint">Pesquisar canais</string>
+    <string name="label_no_results">Nenhum canal encontrado</string>
+    <string name="label_empty_favorites">Ainda não há favoritos aqui. Toque na estrela de um canal para o adicionar.</string>
+    <string name="label_loading_playlist">A carregar a lista…</string>
+    <string name="label_load_failed">Não foi possível carregar a lista</string>
+    <string name="action_retry">Tentar de novo</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_delete">Apagar</string>
+    <string name="action_use">Usar</string>
+    <string name="action_add_to_favorites">Adicionar aos favoritos</string>
+    <string name="action_remove_from_favorites">Remover dos favoritos</string>
+    <string name="action_fullscreen">Ecrã inteiro</string>
+    <string name="action_pip">Imagem no ecrã</string>
+    <string name="action_back">Voltar</string>
+    <string name="action_previous_channel">Canal anterior</string>
+    <string name="action_next_channel">Canal seguinte</string>
+    <string name="action_play_pause">Reproduzir ou pausar</string>
+    <string name="action_audio">Áudio</string>
+    <string name="action_subtitles">Legendas</string>
+    <string name="action_channels">Canais</string>
+    <string name="action_aspect">Formato da imagem</string>
+    <string name="label_quality_format">%1$dp</string>
+    <string name="label_aspect_fit">Ajustar</string>
+    <string name="label_aspect_fill">Preencher</string>
+    <string name="label_aspect_zoom">Ampliar</string>
+    <string name="label_audio_with_value">Áudio · %1$s</string>
+    <string name="label_subtitles_with_value">Legendas · %1$s</string>
+    <string name="label_no_programme">Sem informação do programa</string>
+    <string name="error_playback">Não foi possível reproduzir esta emissão</string>
+    <string name="label_coming_soon_title">Chega na próxima versão</string>
+    <string name="label_coming_soon_body">Esta secção está a ser portada da app de TV e chega na próxima versão.</string>
+    <string name="more_title">Mais</string>
+    <string name="more_active_playlist">Lista ativa</string>
+    <string name="more_refresh">Atualizar</string>
+    <string name="more_refreshing">A atualizar…</string>
+    <string name="more_playlists_header">Listas</string>
+    <string name="more_about_header">Acerca</string>
+    <string name="more_about_title">Feito com ajuda de IA</string>
+    <string name="more_cast_note_title">Chromecast</string>
+    <string name="more_cast_note_body">Filmes e séries podem ser transmitidos. A TV em direto não: manteria o telemóvel ocupado o tempo todo, por isso é sempre reproduzida no telemóvel.</string>
+    <string name="label_audio_unsupported">Áudio: %1$s não suportado neste telemóvel</string>
+    <string name="more_about_body">Claude, da Anthropic · código aberto</string>
+    <string name="more_switch_playlist">A mudar para \"%1$s\"…</string>
+    <string name="more_confirm_delete_title">Apagar lista?</string>
+    <string name="more_confirm_delete_body">\"%1$s\" será removida deste dispositivo. Os favoritos são mantidos.</string>
+    <string name="label_welcome_title">Bem-vindo ao ZecaTV</string>
+    <string name="label_welcome_body">Adicione a sua primeira lista para começar a ver.</string>
+    <string name="label_pick_playlist">Escolher lista</string>
+    <string name="label_not_loaded_yet">Ainda não carregada</string>
+    <string name="hint_xtream_user">Utilizador</string>
+    <string name="hint_xtream_pass">Palavra-passe</string>
+
+    <!-- Filmes e séries -->
+    <string name="label_continue_watching">Continuar a ver</string>
+    <string name="movies_count">%1$d filmes</string>
+    <string name="shows_count">%1$d séries</string>
+    <string name="label_search_titles_hint">Pesquisar títulos</string>
+    <string name="label_no_titles">Nada encontrado</string>
+    <string name="label_no_movies">Esta lista não tem filmes.</string>
+    <string name="label_no_shows">Esta lista não tem séries.</string>
+    <string name="action_play">Reproduzir</string>
+    <string name="action_resume_at">Retomar · %1$s</string>
+    <string name="action_play_episode">Reproduzir %1$s</string>
+    <string name="action_resume_episode">Retomar %1$s · %2$s</string>
+    <string name="action_start_over">Recomeçar</string>
+    <string name="action_favorite">Favorito</string>
+    <string name="action_favorited">Nos favoritos</string>
+    <string name="label_more_like_this">Mais como este</string>
+    <string name="label_season_n">Temporada %1$d</string>
+    <string name="label_season_other">Episódios</string>
+    <string name="label_watched">Visto</string>
+    <string name="label_min_left">Faltam %1$d min</string>
+    <string name="menu_mark_watched">Marcar como visto</string>
+    <string name="menu_mark_unwatched">Marcar como não visto</string>
+    <string name="toast_next_episode">Próximo episódio: %1$s</string>
+    <plurals name="seasons_count">
+        <item quantity="one">%1$d temporada</item>
+        <item quantity="other">%1$d temporadas</item>
+    </plurals>
+
+    <!-- Guia de TV -->
+    <string name="guide_today">Hoje</string>
+    <string name="guide_tomorrow">Amanhã</string>
+    <string name="label_guide_no_data">Sem dados do guia</string>
+    <string name="action_watch">Ver</string>
+
+    <!-- Definições (separador Mais) -->
+    <string name="more_settings_header">Definições</string>
+    <string name="more_epg_sources_title">Fontes de EPG</string>
+    <string name="more_epg_sources_subtitle">%1$d fontes de guia</string>
+    <string name="more_assign_epg_subtitle">Corrigir informação de programas errada ou em falta num canal</string>
+    <string name="more_long_press_title">Pressão longa num canal</string>
+    <string name="language_system">Predefinição do sistema</string>
+    <string name="mapping_label_channel">Canal</string>
+    <string name="mapping_tap_to_choose">Toque para escolher</string>
+    <string name="label_search_hint_generic">Pesquisar</string>
+    <string name="cast_casting_to">A transmitir para %1$s</string>
+    <string name="cast_stop">Parar transmissão</string>
+    <string name="cast_button_desc">Transmitir</string>
+    <string name="cast_casting_overlay">A reproduzir em %1$s</string>
+    <string name="more_theme_header">Tema</string>
+    <string name="theme_classic">Clássico</string>
+    <string name="theme_cinema">Cinema</string>
+    <string name="theme_clean_light">Claro</string>
+    <string name="theme_neon">Néon</string>
+    <string name="theme_amoled">AMOLED</string>
+    <string name="theme_midnight">Meia-noite</string>
+    <string name="theme_forest">Floresta</string>
+    <string name="theme_amber">Âmbar</string>
+    <string name="label_pick_channel">Escolha um canal para começar a ver</string>
+    <string name="banner_featured">Em destaque</string>
+    <string name="more_banner_title">Banner em Filmes e Séries</string>
+    <string name="more_banner_subtitle">Título em destaque ou Continuar a ver no topo</string>
+    <string name="more_pinned_title">Leitor fixo e favoritos</string>
+    <string name="more_pinned_subtitle">O separador Direto mostra sempre o leitor, com os canais favoritos por baixo</string>
+    <string name="banner_resume">Retomar</string>
+    <string name="more_long_press_header">Pressão longa</string>
+    <string name="cast_error">%1$s não conseguiu reproduzir esta stream. O Chromecast só reproduz HLS ou MP4 que o seu fornecedor lhe permita aceder.</string>
+    <string name="cast_error_short">%1$s não conseguiu reproduzir esta stream</string>
+    <string name="tutorial_title">Controlos em ecrã inteiro</string>
+    <string name="tutorial_tap">TOQUE</string>
+    <string name="tutorial_left">Deslize para cima ou para baixo no lado esquerdo para mudar o brilho</string>
+    <string name="tutorial_right">Deslize para cima ou para baixo no lado direito para mudar o volume</string>
+    <string name="tutorial_center_live">Toque para mostrar ou esconder os controlos. Toque duplo para pausar ou reproduzir.</string>
+    <string name="tutorial_center_vod">Toque para mostrar ou esconder os controlos. Toque duplo nos lados para saltar 10 segundos, ao centro para pausar.</string>
+    <string name="tutorial_extra_live">Deslize para a esquerda a partir da margem direita, ou toque em Canais, para abrir a lista de canais. Use as setas para mudar de canal.</string>
+    <string name="tutorial_extra_vod">Arraste a barra para avançar ou recuar e use o botão de velocidade para mudar a velocidade.</string>
+    <string name="tutorial_got_it">Percebi</string>
+    <string name="more_tutorial_title">Tutorial do ecrã inteiro</string>
+    <string name="more_tutorial_subtitle">Mostrar o guia de controlos outra vez na próxima vez que abrir o leitor</string>
+    <string name="more_tutorial_toast">O guia vai aparecer na próxima vez que abrir o ecrã inteiro</string>
+</resources>

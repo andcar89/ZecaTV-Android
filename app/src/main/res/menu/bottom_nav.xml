@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_live" android:icon="?attr/zNavLive" android:title="@string/nav_live_tv" />
+    <item android:id="@+id/nav_guide" android:icon="?attr/zNavGuide" android:title="@string/nav_tv_guide" />
+    <item android:id="@+id/nav_movies" android:icon="?attr/zNavMovies" android:title="@string/nav_movies" />
+    <item android:id="@+id/nav_shows" android:icon="?attr/zNavShows" android:title="@string/nav_series" />
+    <item android:id="@+id/nav_more" android:icon="?attr/zNavMore" android:title="@string/nav_more" />
+</menu>

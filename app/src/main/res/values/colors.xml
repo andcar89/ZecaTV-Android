@@ -1,0 +1,14 @@
+<resources>
+    <color name="background_color">#111318</color>
+    <color name="surface_color">#1A1D24</color>
+    <color name="surface_high_color">#23272F</color>
+    <color name="outline_color">#2A2E38</color>
+    <color name="accent_color">#1565C0</color>
+    <color name="accent_light_color">#8AB4FF</color>
+    <color name="text_primary_color">#E6E8EC</color>
+    <color name="text_secondary_color">#9AA0AA</color>
+    <color name="live_red_color">#E53935</color>
+    <color name="favorite_gold_color">#FFC107</color>
+    <color name="scrim_color">#99000000</color>
+    <color name="ic_launcher_background">#1565C0</color>
+</resources>

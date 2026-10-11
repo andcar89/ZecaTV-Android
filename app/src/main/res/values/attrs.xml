@@ -1,0 +1,19 @@
+<resources>
+    <attr name="zBackground" format="color" />
+    <attr name="zSurface" format="color" />
+    <attr name="zSurfaceHigh" format="color" />
+    <attr name="zOutline" format="color" />
+    <attr name="zAccent" format="color" />
+    <attr name="zAccentLight" format="color" />
+    <attr name="zTextPrimary" format="color" />
+    <attr name="zTextSecondary" format="color" />
+    <attr name="zOnAccent" format="color" />
+    <attr name="zLive" format="color" />
+    <attr name="zPanel" format="color" />
+    <attr name="zBackgroundClear" format="color" />
+    <attr name="zNavLive" format="reference" />
+    <attr name="zNavGuide" format="reference" />
+    <attr name="zNavMovies" format="reference" />
+    <attr name="zNavShows" format="reference" />
+    <attr name="zNavMore" format="reference" />
+</resources>

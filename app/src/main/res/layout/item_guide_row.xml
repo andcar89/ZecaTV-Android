@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/guide_logo_column"
+        android:layout_width="64dp"
+        android:layout_height="match_parent"
+        android:background="?attr/zBackground"
+        android:foreground="?attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/guide_logo"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo_background"
+            android:contentDescription="@null"
+            android:padding="4dp"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+    <com.ze.iptvplayer.ui.guide.GuideRowView
+        android:id="@+id/guide_row"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>

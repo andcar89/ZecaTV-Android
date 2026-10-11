@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_root"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:background="@drawable/row_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="16dp"
+    android:paddingEnd="4dp">
+
+    <ImageView
+        android:id="@+id/channel_logo"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="@drawable/logo_background"
+        android:contentDescription="@null"
+        android:padding="4dp"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="4dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/channel_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="?attr/zTextPrimary"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/channel_programme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="?attr/zTextSecondary"
+            android:textSize="13sp" />
+
+        <ProgressBar
+            android:id="@+id/channel_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="5dp"
+            android:max="100"
+            android:progressBackgroundTint="?attr/zOutline"
+            android:progressTint="?attr/zAccentLight" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/playing_icon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_equalizer"
+        android:visibility="gone"
+        app:tint="?attr/zAccentLight" />
+
+    <ImageButton
+        android:id="@+id/favorite_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/category_favorites"
+        android:src="@drawable/ic_star_border"
+        app:tint="?attr/zTextSecondary" />
+</LinearLayout>
